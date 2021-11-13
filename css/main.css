@@ -1,0 +1,290 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+/*body {
+	font-family: "Arial Rounded MT";
+}*/
+.center {
+	text-align: center;
+}
+.upperCase {
+	text-transform: uppercase;
+}
+.highlightText {
+	color: rgb(239, 102, 77);
+}
+
+
+/*==================== HEADER/HOME Section =====================*/
+.header-container {
+	position: relative;
+}
+.bannerText {
+	position: absolute;
+	transform: translate(-50%, -50%);
+	left: 50%; top: 50%;
+	color: whitesmoke;
+	font-size: 22px;
+
+}
+/*.header-top {
+	display: flex;
+}*/
+.logo {
+	position: absolute;
+	top: 7%; left: 12%;
+}
+.top-menu {
+	font-family: serif;
+	position: absolute;
+	top: 7%;left: 55%;
+	font-size: 20px;
+}
+.top-menu-item {
+	text-decoration: none;
+	margin-left: 30px;
+	color: whitesmoke;
+}
+.top-menu-item:hover {
+	color: rgb(239, 102, 77);
+}
+
+/*==================== ABOUT Section =====================*/
+.about-container {
+	position: relative;
+	margin-top: 20px;
+}
+.about-section {
+	position: absolute;
+	width: 70%;
+	left: 15%;
+}
+.about-image {
+	position: absolute;
+	width: 20%;
+	border-radius: 50%;
+	padding-top: 60px;
+
+}
+.about-header {
+	text-align: center;
+	margin-bottom: 30px;
+	font-size: 35px;
+	color: gray;
+}
+.about-text {
+	position: absolute;
+	top: 100%; left: 30%;
+	color: gray;
+	text-align: center;
+	/*font-size: 17px;*/
+}
+.clear {
+	clear: both;
+}
+
+.about-grids {
+	position: absolute;
+	margin-top: 350px;
+	width: 70%;
+	left: 15%;
+	/*display: flex;
+	justify-content: space-between;*/
+}
+table, tr, td {
+	border-collapse: collapse;
+}
+/*td {
+	padding-top: 10px;
+}*/
+.first-column {
+	position: absolute;
+	width: 50%;
+}
+.second-column {
+	position: absolute;
+	width: 50%;
+	left: 50%;
+	margin-left: 40px ;
+}
+.down-arrow {
+	position: absolute;	
+	top: 180%;
+	left: 50%;
+}
+/*==================== WORKS Section =====================*/
+.works-container {
+	position: absolute;
+	width: 100%;
+	top: 190%;
+	background-color: #2C3E50;
+	height: 800px;
+	align-items: center;
+}
+.works-header {
+	width: 80%;
+	position: absolute;	
+	text-align: center;
+	font-size: 24px;
+	top: 5%;left: 10%;
+}
+.works-text {
+	width: 80%;
+	position: absolute;
+	text-align: center;
+	top: 12%; left: 10%;
+	font-size: 16px;
+	color: whitesmoke;
+}
+.works-menu {
+	display: flex;
+	justify-content: right;
+	font-family: serif;
+	width: 75%;
+	position: absolute;
+	font-size: 20px;
+	top: 20%; left: 10%;
+}
+.works-border {
+	position: absolute;
+	top: 25%; left: 12%;
+	width: 75%;
+
+}
+.works-border-img {
+	position: absolute;
+	width: 100%;
+	z-index: 1;
+	height: 500px;
+}
+.works-images {
+	position: absolute;
+	width: 100%;
+	z-index: 2;
+	margin-top: 10px;
+	left: 2%; right: 2%;
+}
+.works-images img {
+	width: 85%
+}
+.works-images td {
+	padding: 10px 0px;
+}
+.works-down-arrow {
+	position: absolute;
+	top: 90%; left: 50%;
+	cursor: pointer;
+}
+/*==================== SERVICES Section =====================*/
+.services-container {
+	position: absolute;
+	width: 100%;
+	top: 310%;
+}
+.services-header {
+	width: 80%;
+	position: absolute;	
+	text-align: center;
+	font-size: 24px;
+	top: 5%;left: 10%;
+}
+.services-text {
+	width: 80%;
+	position: absolute;
+	text-align: center;
+	top: 20%; left: 10%;
+	font-size: 16px;
+	color: gray;
+	margin-top: 70px;
+}
+.services-cards {
+	position: absolute;
+	width: 80%;
+	left: 10%;
+	margin-top: 150px;
+	text-align: center;
+}
+.services-cards img,h1,p {
+	padding: 5px;
+}
+.services-down-arrow {
+	position: absolute;
+	left: 50%;
+	margin-top: 450px;
+	cursor: pointer;
+}
+/*==================== CONTACT Section =====================*/
+.contact-container {
+	position: absolute;
+	width: 100%;
+	top: 385%;
+	background-color: #2C3E50;
+	height: 700px;
+	text-align: center;
+	overflow: hidden;
+}
+.contact-header {
+	position: absolute;
+	left: 15%;
+	width: 70%;
+	margin-top: 20px;
+	font-size: 24px;
+}
+.contact-text {
+	position: absolute;
+	left: 20%;
+	width: 60%;
+	margin-top: 100px;
+	color: whitesmoke;
+}
+.contact-links-img {
+	position: absolute;
+	width: 40%;
+	top: 10%;left: 35%;
+	margin-top: 170px;
+}
+.contact-info {
+	position: absolute;
+	width: 100%;
+	background-color: #2C3E50;
+	top: 300px;
+}
+input {
+	width: 20%;
+	height: 50px;
+	margin: 40px 20px;
+	background-color: #2C3E50;
+	color: whitesmoke;
+	font-size: 16px;
+	outline: 0;
+	border-top: 0;
+	border-left: 0;
+	border-right: 0;
+	border-bottom: 1px solid white;
+}
+.input-message {
+	width: 43%;
+	margin: 0 350px 0 0;
+}
+.contact-message {
+	text-align: right;
+	margin-right: 250px;
+}
+.footerBar {
+	position: absolute;
+	width: 70%;
+	background-color: gray;
+	height: 1px;
+	left: 15%;
+	margin-top: 600px;
+}
+/*==================== FOOTER Section =====================*/
+
+.footer-text {
+	width: 100%;
+	position: absolute;
+	top: 475%;
+	text-align: center;
+	color: whitesmoke;
+}
